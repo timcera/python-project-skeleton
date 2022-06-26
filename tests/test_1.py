@@ -10,7 +10,7 @@ def test_amodule():
 
 def test_true():
     """Just asserts True."""
-    assert True
+    pass
 
 
 def test_sampleclass():

@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 """Config file for Sphinx-docs."""
+
 from __future__ import unicode_literals
 
 import os
@@ -77,7 +78,7 @@ html_split_index = False
 html_sidebars = {
     '**': ['searchbox.html', 'globaltoc.html', 'sourcelink.html'],
     }
-html_short_title = '%s-%s' % (project, version)
+html_short_title = f'{project}-{version}'
 
 napoleon_use_ivar = True
 napoleon_use_rtype = False

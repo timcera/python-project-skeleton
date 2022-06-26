@@ -29,10 +29,10 @@ def read(*names, **kwargs):
 #     re.sub(':[a-z]+:`~?(.*?)`', r'``\1``', read(join('docs', 'CHANGELOG.rst')))
 #     )
 
-long_description = '{}\n{}'.format(
-    read('README.rst'),
-    read(join('docs', 'CHANGELOG.rst')),
-    )
+long_description = (
+    f"{read('README.rst')}\n{read(join('docs', 'CHANGELOG.rst'))}"
+)
+
 
 setup(
     name='jmct-sampleproject',
